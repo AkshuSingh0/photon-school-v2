@@ -3,60 +3,66 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Photon International School</title>
 
-  <style>
-    body{
-      margin:0;
-      font-family: Arial, sans-serif;
-      background:#F7F4EE;
-    }
+  <link rel="stylesheet" href="style.css">
 
-    .hero{
-      height:100vh;
-      background:url('school.jpg') center/cover;
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      color:white;
-      text-align:center;
-    }
-
-    .overlay{
-      background:rgba(0,0,0,0.4);
-      padding:40px;
-      border-radius:20px;
-    }
-
-    h1{
-      font-size:60px;
-      margin:0;
-    }
-
-    p{
-      font-size:22px;
-    }
-
-    .btn{
-      display:inline-block;
-      padding:14px 30px;
-      background:#7B1E2B;
-      color:white;
-      text-decoration:none;
-      border-radius:10px;
-    }
-  </style>
+  <!-- Premium Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<section class="hero">
-  <div class="overlay">
-    <h1>Photon International School</h1>
-    <p>Illuminating Minds. Empowering Futures.</p>
-    <a href="#" class="btn">Admissions Open</a>
-  </div>
-</section>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">
+      Photon International School
+    </div>
 
+    <ul class="nav-links">
+      <li>Home</li>
+      <li>About</li>
+      <li>Academics</li>
+      <li>Admissions</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+
+      <h1>
+        Illuminating Minds.<br>
+        Empowering Futures.
+      </h1>
+
+      <p>
+        A premium ICSE learning environment focused on
+        discipline, values and future-ready education.
+      </p>
+
+      <div class="buttons">
+        <button class="btn-primary">
+          Admissions Open
+        </button>
+
+        <button class="btn-secondary">
+          Visit Campus
+        </button>
+      </div>
+
+    </div>
+
+  </section>
+
+
+<script src="script.js"></script>
 </body>
 </html>
